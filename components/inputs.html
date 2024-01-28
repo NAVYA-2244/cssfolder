@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-group {
+            display: flex;
+            /* max-width: 400px; */
+            /* Adjust the maximum width as needed */
+            margin: 0 auto;
+            /* Center the input group horizontally */
+            background-color: #0056b3;
+            padding: 1rem;
+            border: 1px solid grey;
+            border-radius: 40px;
+        }
+
+        .input {
+            flex: 1;
+            /* Allow the input to grow and take available space */
+            padding: 1.5rem 3.5rem;
+            border: 1px solid white;
+            border-radius: 30px;
+            outline: 0;
+            font-size: 16px;
+            overflow: hidden;
+        }
+
+        .btn {
+            /* background-color: #007bff;
+            color: #fff;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px 15px;
+            margin-left: 8px; */
+            background-color: red;
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 2rem 3rem;
+            border: 0;
+            margin: 1rem 0;
+            border-radius: 40rem;
+            cursor: pointer;
+            white-space: nowrap;
+            /* Adjust spacing between input and button as needed */
+        }
+
+        /* Optional: Hover effect for the button */
+        .btn:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="input-group">
+        <input type="text" class="input" placeholder="enter domain name">
+        <button class="btn btn-accent">serch</button>
+    </div>
+</body>
+
+</html>
