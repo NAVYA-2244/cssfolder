@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
     --color-accent: #ff3400;
@@ -996,4 +996,9 @@ max-width: 230px;
     .footer__heading {
         font-size: 1.6rem;
     }
-} 
+}  */
+div {
+    width: 2267px;
+    height: 1112px;
+    background: url("../images/telegram-cloud-photo-size-5-6052994000228562766-x/ 1.png")lightgray 50% / cover no-repeat;
+}
